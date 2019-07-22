@@ -1,0 +1,37 @@
+[
+  {
+    "companyActivities":
+    [
+      {
+        "name": "hz"
+      }
+    ],
+    "defaultProjectIDs": [1],
+    "settings":
+    [
+      {
+        "key": "1",
+        "value": "1"
+
+      },
+      {
+        "key": "2",
+        "value": "2"
+      }
+    ],
+    "integrations":
+    [
+      {
+        "type": "hz",
+        "login": "hz",
+        "password": "hz"
+
+      },
+      {
+        "type": "hz",
+        "login": "hz",
+        "password": "hz"
+      }
+    ]
+  }
+]

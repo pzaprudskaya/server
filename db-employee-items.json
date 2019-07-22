@@ -1,0 +1,66 @@
+[
+  {
+    "photoUrl": "red",
+    "name": "Polina Zaprudskaya",
+    "role": "Owner",
+    "planned": 40,
+    "actual": 32,
+    "status": "active",
+    "pendingApprovalTimesheets":
+    [
+      {
+        "from": "",
+        "to": "",
+        "planned": 15,
+        "actual": 14
+      },
+      {
+        "from": "",
+        "to": "",
+        "planned": 34,
+        "actual": 14
+      },
+      {
+        "from": "",
+        "to": "",
+        "planned": 20,
+        "actual": 12
+      },
+      {
+        "from": "",
+        "to": "",
+        "planned": 10,
+        "actual": 9
+      }
+    ]
+  },
+  {
+    "photoUrl": "red",
+    "name": "Egor",
+    "role": "Admin",
+    "planned": 42,
+    "actual": 25,
+    "status": "active",
+    "pendingApprovalTimesheets":
+    [
+      {
+        "from": "",
+        "to": "",
+        "planned": 15,
+        "actual": 14
+      },
+      {
+        "from": "",
+        "to": "",
+        "planned": 34,
+        "actual": 14
+      },
+      {
+        "from": "",
+        "to": "",
+        "planned": 20,
+        "actual": 0
+      }
+    ]
+  }
+]

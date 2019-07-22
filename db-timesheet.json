@@ -1,0 +1,24 @@
+[
+  {
+    "logs":
+    {
+      "color": "gray",
+      "comment": "hgjblkm;l",
+      "time": 45
+    },
+    "timesheetWorkload":
+    {
+      "planned": 12,
+      "actual": 10,
+      "projects":
+      [
+        {
+          "color": "red",
+          "name": "Skype",
+          "planned": 10,
+          "actual": 5
+        }
+      ]
+    }
+  }
+]

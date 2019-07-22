@@ -1,0 +1,104 @@
+[
+  {
+    "color": "blue",
+    "name": "Skype",
+    "team": [
+      {
+        "photo": "red",
+        "name": "Polina Zaprudskaya",
+        "workload": 40
+      },
+      {
+        "photo": "blue",
+        "name": "Mark Bukati",
+        "workload": 40
+      },
+      {
+        "photo": "yellow",
+        "name": "Vasya Krotov",
+        "workload": 40
+      },
+      {
+        "photo": "purple",
+        "name": "Sergey Smirnov",
+        "workload": 40
+      },
+      {
+        "photo": "gray",
+        "name": "Katya Ivanova",
+        "workload": 40
+      },
+      {
+        "photo": "green",
+        "name": "Egor Drozd",
+        "workload": 40
+      }
+    ],
+    "startDate": "1 Jan, 2019",
+    "endDate": "19 Sep, 2020",
+    "planned": 40,
+    "actual": 32,
+    "status": "active"
+  },
+  {
+    "color": "purple",
+    "name": "Windows",
+    "team": [
+
+      {
+        "photo": "blue",
+        "name": "Mark Bukati",
+        "workload": 40
+      },
+      {
+        "photo": "yellow",
+        "name": "Vasya Krotov",
+        "workload": 40
+      },
+      {
+        "photo": "purple",
+        "name": "Sergey Smirnov",
+        "workload": 40
+      },
+      {
+        "photo": "green",
+        "name": "Egor Drozd",
+        "workload": 40
+      }
+    ],
+    "startDate": "11 Aug, 2018",
+    "endDate": "21 Mar, 2019",
+    "planned": 40,
+    "actual": 32,
+    "status": "active"
+  },
+
+  {
+    "color": "green",
+    "name": "Office",
+    "team": [
+
+      {
+        "photo": "blue",
+        "name": "Mark Bukati",
+        "workload": 40
+      },
+      {
+        "photo": "yellow",
+        "name": "Vasya Krotov",
+        "workload": 40
+      },
+
+      {
+        "photo": "green",
+        "name": "Egor Drozd",
+        "workload": 40
+      }
+    ],
+    "startDate": "11 Aug, 2018",
+    "endDate": "21 Mar, 2019",
+    "planned": 40,
+    "actual": 10,
+    "status": "archived"
+  }
+]

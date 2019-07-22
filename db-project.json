@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Skype",
+    "color": "green",
+    "code": "#256",
+    "status": "1",
+    "team":
+    [
+      {
+        "photo": "",
+        "name": "Polina",
+        "workload": 20
+      },
+      {
+        "photo": "",
+        "name": "Egor",
+        "workload": 20
+      },
+      {
+        "photo": "",
+        "name": "Vasya",
+        "workload": 25
+      }
+    ],
+    "integrations":
+    [
+      {
+        "photo": "",
+        "name": "Polina",
+        "workload": 20
+      },
+      {
+        "photo": "",
+        "name": "Egor",
+        "workload": 20
+      }
+    ]
+
+  },
+  {
+    "name": "Mifort",
+    "color": "blue",
+    "code": "#257",
+    "status": "1",
+    "team":
+    [
+      {
+        "photo": "",
+        "name": "Polina",
+        "workload": 20
+      },
+      {
+        "photo": "",
+        "name": "Egor",
+        "workload": 20
+      },
+      {
+        "photo": "",
+        "name": "Vasya",
+        "workload": 25
+      }
+    ],
+    "integrations":
+    [
+      {
+        "photo": "",
+        "name": "Polina",
+        "workload": 20
+      }
+    ]
+
+  },
+  {
+    "name": "Windows",
+    "color": "gray",
+    "code": "#449",
+    "status": "1",
+    "team":
+    [
+      {
+        "photo": "",
+        "name": "Polina",
+        "workload": 20
+      },
+      {
+        "photo": "",
+        "name": "Egor",
+        "workload": 20
+      },
+      {
+        "photo": "",
+        "name": "Vasya",
+        "workload": 25
+      }
+    ],
+    "integrations":
+    [
+      {
+        "photo": "",
+        "name": "Egor",
+        "workload": 20
+      }
+    ]
+
+  },
+  {
+    "name": "Office",
+    "color": "purple",
+    "code": "#321",
+    "status": "1",
+    "team":
+    [
+      {
+        "photo": "",
+        "name": "Polina",
+        "workload": 20
+      },
+      {
+        "photo": "",
+        "name": "Egor",
+        "workload": 20
+      },
+      {
+        "photo": "",
+        "name": "Vasya",
+        "workload": 25
+      }
+    ],
+    "integrations":
+    [
+      {
+        "photo": "",
+        "name": "Polina",
+        "workload": 20
+      },
+      {
+        "photo": "",
+        "name": "Egor",
+        "workload": 20
+      },
+      {
+        "photo": "",
+        "name": "Vasya",
+        "workload": 25
+      }
+    ]
+
+  }
+]
