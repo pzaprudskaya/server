@@ -4,41 +4,25 @@ const router = express.Router();
 
 
 /* GET users listing. */
-
-
-router.get('/', function(req, res, next) {
-
-  fs.readFile('db-employee-items.json', 'utf8', function (err, data) {
+router.get('/:name', function(req, res, next) {
+      console.log('name:', req.params.name);
+      fs.readFile('db-employee-profile.json', 'utf8', function (err, data) {
         if (err) {
           res.send(500);
-        } else {
-          const _data = JSON.parse(data);
-
-          let keys = Object.keys(req.query);
-          let numOfKeys = keys.length;
-          let filteredData = [];
-          let isExist = true;
-
-          if (keys && numOfKeys) {
-            _data.forEach(item => {
-              keys.forEach(key => {
-                if (isExist && item.hasOwnProperty(key)
-                    && item[key].indexOf(req.query[key]) === -1) {
-                  isExist = false;
-                }
-              });
-              isExist ? filteredData.push(item) : isExist = true;
-            });
-            res.json(filteredData);
-          } else {
-            res.json(_data);
-          }
         }
-
-      }
-  );
-});
-
+        if (req.params.name) {
+          let arr = [];
+          (JSON.parse(data)).forEach(item => {
+            if (item.name === req.params.name) {
+              arr.push(item);
+            }
+          });
+          res.json(arr);
+        } else {
+          res.json(JSON.parse(data));
+        }
+      });
+    });
 
 /* PUT (update) users listing. */
 router.put('/:name', function (req, res, next) {
@@ -47,7 +31,7 @@ router.put('/:name', function (req, res, next) {
   let obj = null;
 
   if (body && body.name) {
-    fs.readFile('db-employee-items.json', 'utf8', function (err, data) {
+    fs.readFile('db-employee-profile.json', 'utf8', function (err, data) {
       if (err) {
         res.send(500);
       } else {
@@ -60,7 +44,7 @@ router.put('/:name', function (req, res, next) {
           }
         });
 
-        fs.writeFile('db-employee-items.json', JSON.stringify(obj), 'utf8', function (err, data) {
+        fs.writeFile('db-employee-profile.json', JSON.stringify(obj), 'utf8', function (err, data) {
           if (err) {
             res.send(500);
           } else {

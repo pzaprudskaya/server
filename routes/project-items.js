@@ -3,58 +3,58 @@ var fs = require('fs');
 const router = express.Router();
 
 
+
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  fs.readFile('db-project-items.json', 'utf8', function (err, data) {
-    if (err) {
-      res.send(500);
-    }
-    if (req.query.status){
 
-      let arr = [] ;
-      (JSON.parse(data)).forEach(item =>
-      {
-        if (item.status === req.query.status){
-          arr.push(item);
+    fs.readFile('db-project-items.json', 'utf8', function (err, data) {
+            if (err) {
+                res.send(500);
+            } else {
+                const _data = JSON.parse(data);
+
+                let keys = Object.keys(req.query);
+                let numOfKeys = keys.length;
+                let filteredData = [];
+                let isExist = true;
+
+                if (keys && numOfKeys) {
+                    _data.forEach(item => {
+                        keys.forEach(key => {
+                            if (isExist && item.hasOwnProperty(key)
+                                && item[key].indexOf(req.query[key]) === -1) {
+                                isExist = false;
+                            }
+                        });
+                        isExist ? filteredData.push(item) : isExist = true;
+                    });
+                    res.json(filteredData);
+                } else {
+                    res.json(_data);
+                }
+            }
+
         }
-      });
-      res.json(arr);
-
-    }
-    if (req.query.name){
-
-      let arr = [] ;
-      (JSON.parse(data)).forEach(item =>
-      {
-        if (item.name.indexOf(req.query.name) !== -1){
-          arr.push(item);
-        }
-      });
-      res.json(arr);
-
-    }
-
-    else {
-      res.json(JSON.parse(data));
-    }
-
-  });
+    );
 });
 
 /* PUT (update) users listing. */
-router.put('/', function (req, res, next) {
+router.put('/:name', function (req, res, next) {
+
   const body = req.body;
   let obj = null;
 
-  if (body && body.id) {
+  if (body && body.name) {
     fs.readFile('db-project-items.json', 'utf8', function (err, data) {
       if (err) {
         res.send(500);
       } else {
         obj = JSON.parse(data);
         obj = obj.map(item => {
-          if (item.id === body.id) {
+          if (item.name === body.name) {
             return body;
+          } else {
+              return item;
           }
         });
 

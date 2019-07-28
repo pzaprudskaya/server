@@ -5,24 +5,24 @@ const router = express.Router();
 
 /* GET users listing. */
 router.get('/:name', function(req, res, next) {
-  fs.readFile('db-project.json', 'utf8', function (err, data) {
-    if (err) {
-      res.send(500);
-    }
-    if (req.params.name) {
-      let arr = [];
-      (JSON.parse(data)).forEach(item => {
-        if (item.name === req.params.name) {
-          arr.push(item);
+      console.log('name:', req.params.name);
+      fs.readFile('db-company-projects-and-role.json', 'utf8', function (err, data) {
+        if (err) {
+          res.send(500);
+        }
+        if (req.params.name) {
+          let arr = [];
+          (JSON.parse(data)).forEach(item => {
+            if (item.name === req.params.name) {
+              arr.push(item);
+            }
+          });
+          res.json(arr);
+        } else {
+          res.json(JSON.parse(data));
         }
       });
-      res.json(arr);
-    } else {
-      res.json(JSON.parse(data));
-    }
-  });
-});
-
+    });
 
 /* PUT (update) users listing. */
 router.put('/', function (req, res, next) {
@@ -30,7 +30,7 @@ router.put('/', function (req, res, next) {
   let obj = null;
 
   if (body && body.id) {
-    fs.readFile('db-project.json', 'utf8', function (err, data) {
+    fs.readFile('db-company-projects-and-role.json', 'utf8', function (err, data) {
       if (err) {
         res.send(500);
       } else {
@@ -39,9 +39,12 @@ router.put('/', function (req, res, next) {
           if (item.id === body.id) {
             return body;
           }
+          else {
+            return item;
+          }
         });
 
-        fs.writeFile('db-project.json', JSON.stringify(obj), 'utf8', function (err, data) {
+        fs.writeFile('db-company-projects-and-role.json', JSON.stringify(obj), 'utf8', function (err, data) {
           if (err) {
             res.send(500);
           } else {

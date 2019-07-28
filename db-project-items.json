@@ -1,104 +1,63 @@
 [
   {
-    "color": "blue",
-    "name": "Skype",
-    "team": [
+    "color":"blue",
+    "name":"Skype",
+    "team":[
       {
-        "photo": "red",
-        "name": "Polina Zaprudskaya",
-        "workload": 40
+        "photo":"https://sun2.beltelecom-by-minsk.userapi.com/c856128/v856128920/6cd6f/OOkHkJrg6zQ.jpg",
+        "name":"Polina Zaprudskaya",
+        "workload":40
       },
       {
-        "photo": "blue",
-        "name": "Mark Bukati",
-        "workload": 40
-      },
-      {
-        "photo": "yellow",
-        "name": "Vasya Krotov",
-        "workload": 40
-      },
-      {
-        "photo": "purple",
-        "name": "Sergey Smirnov",
-        "workload": 40
-      },
-      {
-        "photo": "gray",
-        "name": "Katya Ivanova",
-        "workload": 40
-      },
-      {
-        "photo": "green",
-        "name": "Egor Drozd",
-        "workload": 40
+        "photo":"https://pp.userapi.com/c855332/v855332542/5222a/hXNILL9c7to.jpg",
+        "name":"Polina Zaprudskaya (young)",
+        "workload":40
       }
     ],
-    "startDate": "1 Jan, 2019",
-    "endDate": "19 Sep, 2020",
-    "planned": 40,
-    "actual": 32,
-    "status": "active"
+    "startDate":"1 Jan, 2019",
+    "endDate":"19 Sep, 2020",
+    "planned":40,
+    "actual":32,
+    "status":"active"
   },
   {
-    "color": "purple",
-    "name": "Windows",
-    "team": [
-
+    "color":"purple",
+    "name":"Uber",
+    "team":[
       {
-        "photo": "blue",
-        "name": "Mark Bukati",
-        "workload": 40
+        "photo":"https://sun2.beltelecom-by-minsk.userapi.com/c856128/v856128920/6cd6f/OOkHkJrg6zQ.jpg",
+        "name":"Polina Zaprudskaya",
+        "workload":40
       },
       {
-        "photo": "yellow",
-        "name": "Vasya Krotov",
-        "workload": 40
-      },
-      {
-        "photo": "purple",
-        "name": "Sergey Smirnov",
-        "workload": 40
-      },
-      {
-        "photo": "green",
-        "name": "Egor Drozd",
-        "workload": 40
+        "photo":"https://pp.userapi.com/c855332/v855332542/5222a/hXNILL9c7to.jpg",
+        "name":"Polina Zaprudskaya (young)",
+        "workload":40
       }
     ],
-    "startDate": "11 Aug, 2018",
-    "endDate": "21 Mar, 2019",
-    "planned": 40,
-    "actual": 32,
-    "status": "active"
-  },
-
+    "startDate":"11 Aug, 2018",
+    "endDate":"21 Mar, 2019",
+    "planned":40,"actual":32,
+    "status":"active"},
   {
-    "color": "green",
-    "name": "Office",
-    "team": [
-
+    "color":"red",
+    "name":"Office",
+    "team":[
       {
-        "photo": "blue",
-        "name": "Mark Bukati",
-        "workload": 40
+        "photo":"https://sun2.beltelecom-by-minsk.userapi.com/c856128/v856128920/6cd6f/OOkHkJrg6zQ.jpg",
+        "name":"Polina Zaprudskaya",
+        "workload":40
       },
       {
-        "photo": "yellow",
-        "name": "Vasya Krotov",
-        "workload": 40
-      },
-
-      {
-        "photo": "green",
-        "name": "Egor Drozd",
-        "workload": 40
+        "photo":"https://pp.userapi.com/c855332/v855332542/5222a/hXNILL9c7to.jpg",
+        "name":"Polina Zaprudskaya (young)",
+        "workload":40
       }
     ],
-    "startDate": "11 Aug, 2018",
-    "endDate": "21 Mar, 2019",
-    "planned": 40,
-    "actual": 10,
-    "status": "archived"
+    "startDate":"11 Aug, 2018",
+    "endDate":"21 Mar, 2019",
+    "planned":40,
+    "actual":10,
+    "status":"active"
   }
 ]

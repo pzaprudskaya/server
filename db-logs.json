@@ -1,13 +1,21 @@
 [
   {
+    "color": "green",
     "projectName": "Windows",
     "time": 5,
-    "comment": "hddxfcghjbz"
+    "comment": "комментарий...."
 
   },
   {
+    "color": "blue",
     "projectName": "Skype",
     "time": 15,
-    "comment": "dxfgchvnjbmhz"
+    "comment": "комментарий...."
+  },
+  {
+    "color": "purple",
+    "projectName": "Uber",
+    "time": 15,
+    "comment": "комментарий...."
   }
 ]

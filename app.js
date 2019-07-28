@@ -15,6 +15,8 @@ var settingsRouter = require('./routes/settings');
 var notificationRouter = require('./routes/notification');
 var employeeItemsRouter = require('./routes/employee-items');
 var projectItemsRouter = require('./routes/project-items');
+var employeeProfileRouter = require('./routes/employee-profile');
+var companyProjectandRoleRouter = require('./routes/company-projects-and-role')
 
 
 
@@ -37,6 +39,8 @@ app.use('/settings', settingsRouter);
 app.use('/notification', notificationRouter);
 app.use('/employee-items', employeeItemsRouter);
 app.use('/project-items', projectItemsRouter);
+app.use('/employee-profile', employeeProfileRouter);
+app.use('/company-projects', companyProjectandRoleRouter)
 
 
 
