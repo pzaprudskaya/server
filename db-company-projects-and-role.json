@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Mifort",
+    "projects":
+    [
+      {
+        "color": "purple",
+        "name": "Skype"
+      },
+      {
+        "color": "blue",
+        "name": "Mifort"
+      },
+      {
+        "color": "green",
+        "name": "Office"
+      },
+      {
+        "color": "gray",
+        "name": "Windows"
+      },
+      {
+        "color": "red",
+        "name": "Bing"
+      }
+    ],
+    "roles": ["Project Manager", "Employee", "HR Manager", "Owner", "Admin"]
+  }
+
+]
