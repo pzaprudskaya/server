@@ -4,12 +4,22 @@ const router = express.Router();
 
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
+router.get('/:name', function(req, res, next) {
   fs.readFile('db-activity.json', 'utf8', function (err, data) {
     if (err) {
       res.send(500);
     }
-    res.json(JSON.parse(data));
+    if (req.params.name) {
+      let arr = [];
+      (JSON.parse(data)).forEach(item => {
+        if (item.name === req.params.name) {
+          arr.push(item);
+        }
+      });
+      res.json(arr);
+    } else {
+      res.json(JSON.parse(data));
+    }
   });
 });
 

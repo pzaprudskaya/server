@@ -14,7 +14,6 @@ router.get('/', function(req, res, next) {
 });
 
 
-
 /* PUT (update) users listing. */
 router.put('/', function (req, res, next) {
   const body = req.body;
@@ -48,17 +47,25 @@ router.put('/', function (req, res, next) {
 });
 
 /* DELETE users listing. */
-router.delete('/', function (req, res, next) {
-  res.json({
-    message: 'delete method'
-  })
+router.delete('/:name', function (req, res, next) {
+  //console.log(util.inspect(req.body));
 });
 
 /* POST users listing. */
 router.post('/', function (req, res, next) {
-  res.json({
-    message: 'post method'
-  })
+  fs.readFile('db-logs.json', 'utf8', function readFileCallback(err, data){
+    if (err){
+      res.send(500);
+    } else {
+      obj = JSON.parse(data);
+      obj.push(req.body);
+      json = JSON.stringify(obj);
+      fs.writeFile('db-logs.json', json, 'utf8', function (err, data){
+        if (err) {
+          res.send(500);
+        }
+      });
+    }});
 });
 
 module.exports = router;

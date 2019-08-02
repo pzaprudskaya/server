@@ -1,21 +1,20 @@
 [
   {
-    "color": "green",
-    "projectName": "Windows",
-    "time": 5,
-    "comment": "комментарий...."
-
+    "color":"red",
+    "projectName":"Office",
+    "time":3,
+    "comment":"какой-то комментарий"
   },
   {
-    "color": "blue",
-    "projectName": "Skype",
-    "time": 15,
-    "comment": "комментарий...."
+    "color":"purple",
+    "projectName":"Uber",
+    "time":3,
+    "comment":"какой-то комментарий"
   },
   {
-    "color": "purple",
-    "projectName": "Uber",
-    "time": 15,
-    "comment": "комментарий...."
+    "color":"blue",
+    "projectName":"Skype",
+    "time":3,
+    "comment":"какой-то комментарий"
   }
 ]

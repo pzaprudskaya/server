@@ -1,8 +1,12 @@
 [
   {
-    "name": "hz"
+    "name": "Polina Zaprudskaya",
+    "role": "Admin",
+    "companies": ["Mifort", "Microsoft"]
   },
   {
-    "name": "hz"
+    "name": "Polina Zaprudskaya (young)",
+    "role": "Owner",
+    "companies": ["Epam"]
   }
 ]
