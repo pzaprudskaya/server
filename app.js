@@ -16,7 +16,8 @@ var notificationRouter = require('./routes/notification');
 var employeeItemsRouter = require('./routes/employee-items');
 var projectItemsRouter = require('./routes/project-items');
 var employeeProfileRouter = require('./routes/employee-profile');
-var companyProjectandRoleRouter = require('./routes/company-projects-and-role')
+var companyProjectandRoleRouter = require('./routes/company-projects-and-role');
+var approvalsRouter = require ('./routes/approvals-items');
 
 
 
@@ -40,7 +41,8 @@ app.use('/notification', notificationRouter);
 app.use('/employee-items', employeeItemsRouter);
 app.use('/project-items', projectItemsRouter);
 app.use('/employee-profile', employeeProfileRouter);
-app.use('/company-projects', companyProjectandRoleRouter)
+app.use('/company-projects', companyProjectandRoleRouter);
+app.use('/approvals', approvalsRouter);
 
 
 
