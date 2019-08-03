@@ -223,6 +223,7 @@
                 0,
                 0,
                 4,
+                0,
                 0
               ]
             },
@@ -244,6 +245,7 @@
                 11,
                 0,
                 4,
+                0,
                 0
               ]
             },
@@ -265,7 +267,8 @@
                 11,
                 0,
                 4,
-                9
+                9,
+                0
               ]
             },
             "timesheetWorkload": {
@@ -292,7 +295,8 @@
                 23,
                 4,
                 4,
-                4
+                4,
+                0
               ]
             },
             "timesheetWorkload": {
@@ -313,7 +317,8 @@
                 11,
                 34,
                 4,
-                12
+                12,
+                0
               ]
             },
             "timesheetWorkload": {
@@ -334,7 +339,8 @@
                 15,
                 11,
                 4,
-                9
+                9,
+                0
               ]
             },
             "timesheetWorkload": {
@@ -356,220 +362,224 @@
     ]
   },
   {
-      "photoUrl": "https://pp.userapi.com/c855332/v855332542/5222a/hXNILL9c7to.jpg",
-      "name": "Polina Zaprudskaya (young)",
-      "role": "Admin",
-      "workload": 20,
-      "email": "polinazaprudskayayoung@gmail.com",
-      "phone": "+375(29) 85-99-197",
-      "employeeProjects": [
-        {
-          "color": "blue",
-          "name": "Skype",
-          "role": "Project Manager",
-          "time": 20
-        },
-        {
-          "color": "purple",
-          "name": "Uber",
-          "role": "Owner",
-          "time": 21
-        }
-      ],
-      "yearsWorkload": [
-        {
-          "month": "Apr",
-          "projectsWorkload": [
-            {
+    "photoUrl": "https://pp.userapi.com/c855332/v855332542/5222a/hXNILL9c7to.jpg",
+    "name": "Polina Zaprudskaya (young)",
+    "role": "Admin",
+    "workload": 20,
+    "email": "polinazaprudskayayoung@gmail.com",
+    "phone": "+375(29) 85-99-197",
+    "employeeProjects": [
+      {
+        "color": "blue",
+        "name": "Skype",
+        "role": "Project Manager",
+        "time": 20
+      },
+      {
+        "color": "purple",
+        "name": "Uber",
+        "role": "Owner",
+        "time": 21
+      }
+    ],
+    "yearsWorkload": [
+      {
+        "month": "Apr",
+        "projectsWorkload": [
+          {
+            "color": "blue",
+            "name": "Skype",
+            "workload": 15
+          },
+          {
+            "color": "purple",
+            "name": "Uber",
+            "workload": 17
+          }
+        ]
+      },
+      {
+        "month": "May",
+        "projectsWorkload": [
+          {
+            "color": "blue",
+            "name": "Skype",
+            "workload": 0
+          },
+          {
+            "color": "purple",
+            "name": "Uber",
+            "workload": 34.5
+          }
+        ]
+      },
+      {
+        "month": "Jun",
+        "projectsWorkload": [
+          {
+            "color": "blue",
+            "name": "Skype",
+            "workload": 10
+          },
+          {
+            "color": "purple",
+            "name": "Uber",
+            "workload": 5
+          }
+        ]
+      },
+      {
+        "month": "Jul",
+        "projectsWorkload": [
+          {
+            "color": "blue",
+            "name": "Skype",
+            "workload": 45
+          },
+          {
+            "color": "purple",
+            "name": "Uber",
+            "workload": 7
+          }
+        ]
+      },
+      {
+        "month": "Aug",
+        "projectsWorkload": [
+          {
+            "color": "blue",
+            "name": "Skype",
+            "workload": 31
+          },
+          {
+            "color": "purple",
+            "name": "Uber",
+            "workload": 23
+          }
+        ]
+      },
+      {
+        "month": "Sep",
+        "projectsWorkload": [
+          {
+            "color": "blue",
+            "name": "Skype",
+            "workload": 5
+          },
+          {
+            "color": "purple",
+            "name": "Uber",
+            "workload": 12
+          }
+        ]
+      }
+    ],
+    "timesheetsPendingApproval": [
+      {
+        "period": "1 Feb 2018 - 25 Jan 2020",
+        "dataForApproval": [
+          {
+            "logs": {
               "color": "blue",
-              "name": "Skype",
-              "workload": 15
+              "comment": "какой-то комментарий",
+              "time": [
+                40,
+                20,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0
+              ]
             },
-            {
-              "color": "purple",
-              "name": "Uber",
-              "workload": 17
-            }
-          ]
-        },
-        {
-          "month": "May",
-          "projectsWorkload": [
-            {
+            "timesheetWorkload": {
+              "name": "Skype",
               "color": "blue",
-              "name": "Skype",
-              "workload": 0
-            },
-            {
-              "color": "purple",
-              "name": "Uber",
-              "workload": 34.5
+              "planned": 70,
+              "actual": 64
             }
-          ]
-        },
-        {
-          "month": "Jun",
-          "projectsWorkload": [
-            {
+          },
+          {
+            "logs": {
+              "color": "purple",
+              "comment": "какой-то комментарий",
+              "time": [
+                40,
+                10,
+                0,
+                11,
+                0,
+                4,
+                0,
+                0
+              ]
+            },
+            "timesheetWorkload": {
+              "name": "Uber",
+              "color": "purple",
+              "planned": 70,
+              "actual": 65
+            }
+          }
+        ]
+      },
+      {
+        "period": "1 Mar 2019 - 25 May 2019",
+        "dataForApproval": [
+          {
+            "logs": {
               "color": "blue",
-              "name": "Skype",
-              "workload": 10
+              "comment": "какой-то комментарий",
+              "time": [
+                40,
+                20,
+                23,
+                0,
+                21,
+                4,
+                5,
+                0
+              ]
             },
-            {
-              "color": "purple",
-              "name": "Uber",
-              "workload": 5
-            }
-          ]
-        },
-        {
-          "month": "Jul",
-          "projectsWorkload": [
-            {
+            "timesheetWorkload": {
+              "name": "Skype",
               "color": "blue",
-              "name": "Skype",
-              "workload": 45
-            },
-            {
+              "planned": 115,
+              "actual": 113
+            }
+          },
+          {
+            "logs": {
               "color": "purple",
-              "name": "Uber",
-              "workload": 7
-            }
-          ]
-        },
-        {
-          "month": "Aug",
-          "projectsWorkload": [
-            {
-              "color": "blue",
-              "name": "Skype",
-              "workload": 31
+              "comment": "какой-то комментарий",
+              "time": [
+                50,
+                14,
+                0,
+                11,
+                23,
+                4,
+                0,
+                0
+              ]
             },
-            {
+            "timesheetWorkload": {
+              "name": "Uber",
               "color": "purple",
-              "name": "Uber",
-              "workload": 23
+              "planned": 100,
+              "actual": 101
             }
-          ]
-        },
-        {
-          "month": "Sep",
-          "projectsWorkload": [
-            {
-              "color": "blue",
-              "name": "Skype",
-              "workload": 5
-            },
-            {
-              "color": "purple",
-              "name": "Uber",
-              "workload": 12
-            }
-          ]
-        }
-      ],
-      "timesheetsPendingApproval": [
-        {
-          "period": "1 Feb 2018 - 25 Jan 2020",
-          "dataForApproval": [
-            {
-              "logs": {
-                "color": "blue",
-                "comment": "какой-то комментарий",
-                "time": [
-                  40,
-                  20,
-                  0,
-                  0,
-                  0,
-                  4,
-                  0
-                ]
-              },
-              "timesheetWorkload": {
-                "name": "Skype",
-                "color": "blue",
-                "planned": 70,
-                "actual": 64
-              }
-            },
-            {
-              "logs": {
-                "color": "purple",
-                "comment": "какой-то комментарий",
-                "time": [
-                  40,
-                  10,
-                  0,
-                  11,
-                  0,
-                  4,
-                  0
-                ]
-              },
-              "timesheetWorkload": {
-                "name": "Uber",
-                "color": "purple",
-                "planned": 70,
-                "actual": 65
-              }
-            }
-          ]
-        },
-        {
-          "period": "1 Mar 2019 - 25 May 2019",
-          "dataForApproval": [
-            {
-              "logs": {
-                "color": "blue",
-                "comment": "какой-то комментарий",
-                "time": [
-                  40,
-                  20,
-                  23,
-                  0,
-                  21,
-                  4,
-                  5
-                ]
-              },
-              "timesheetWorkload": {
-                "name": "Skype",
-                "color": "blue",
-                "planned": 115,
-                "actual": 113
-              }
-            },
-            {
-              "logs": {
-                "color": "purple",
-                "comment": "какой-то комментарий",
-                "time": [
-                  50,
-                  14,
-                  0,
-                  11,
-                  23,
-                  4,
-                  0
-                ]
-              },
-              "timesheetWorkload": {
-                "name": "Uber",
-                "color": "purple",
-                "planned": 100,
-                "actual": 101
-              }
-            }
-          ]
-        }
-      ],
-      "notificationsSettings": [
-        {
-          "key": "Timelogs are not filled for more then 24 hours",
-          "value": "system"
-        }
-      ]
+          }
+        ]
+      }
+    ],
+    "notificationsSettings": [
+      {
+        "key": "Timelogs are not filled for more then 24 hours",
+        "value": "system"
+      }
+    ]
   }
 
 ]
