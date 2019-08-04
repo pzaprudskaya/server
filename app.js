@@ -42,7 +42,7 @@ app.use('/employee-items', employeeItemsRouter);
 app.use('/project-items', projectItemsRouter);
 app.use('/employee-profile', employeeProfileRouter);
 app.use('/company-projects', companyProjectandRoleRouter);
-app.use('/approvals', approvalsRouter);
+app.use('/approvals-items', approvalsRouter);
 
 
 

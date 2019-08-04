@@ -1,30 +1,38 @@
 [
   {
-    "photoUrl": "https://sun2.beltelecom-by-minsk.userapi.com/c856128/v856128920/6cd6f/OOkHkJrg6zQ.jpg",
-    "name": "Polina Zaprudskaya",
-    "approvalsWeek":
+    "period": "1 - 7 Jul",
+    "employees":
     [
       {
+        "photoUrl": "https://sun2.beltelecom-by-minsk.userapi.com/c856128/v856128920/6cd6f/OOkHkJrg6zQ.jpg",
+        "name": "Polina Zaprudskaya",
         "planned": 240,
         "actual": 223,
-        "period": "1 - 7 Jul",
+        "status": "Approved"
+      },
+      {
+        "photoUrl": "https://pp.userapi.com/c855332/v855332542/5222a/hXNILL9c7to.jpg",
+        "name": "Polina Zaprudskaya (young)",
+        "planned": 120,
+        "actual": 100,
         "status": "Approved"
       }
     ]
   },
   {
-    "photoUrl": "https://pp.userapi.com/c855332/v855332542/5222a/hXNILL9c7to.jpg",
-    "name": "Polina Zaprudskaya (young)",
-    "approvalsWeek":
+    "period": "8 - 14 Jul",
+    "employees":
     [
       {
-        "planned": 120,
-        "actual": 100,
-        "period": "8 - 14 Jul",
-        "status": "Approved"
+        "photoUrl": "https://sun2.beltelecom-by-minsk.userapi.com/c856128/v856128920/6cd6f/OOkHkJrg6zQ.jpg",
+        "name": "Polina Zaprudskaya",
+        "planned": 240,
+        "actual": 223,
+        "status": "Rejected"
       }
     ]
   }
+
 ]
 
 
