@@ -41,20 +41,20 @@ router.get('/', function(req, res, next) {
 
 
 /* PUT (update) users listing. */
-router.put('/:name', function (req, res, next) {
+router.put('/:id', function (req, res, next) {
 
   const body = req.body;
   let obj = null;
 
-  if (body && body.name) {
+  if (body && body.id) {
     fs.readFile('db-approvals-items.json', 'utf8', function (err, data) {
       if (err) {
         res.send(500);
       } else {
         obj = JSON.parse(data);
         obj = obj.map(item => {
-          if (item.name === body.name) {
-            return body;
+          if (item.id === body.id) {
+              return body;
           } else {
             return item;
           }
