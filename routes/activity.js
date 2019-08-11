@@ -28,7 +28,7 @@ router.put('/', function (req, res, next) {
   const body = req.body;
   let obj = null;
 
-  if (body && body.id) {
+  if (body && body.name) {
     fs.readFile('db-activity.json', 'utf8', function (err, data) {
       if (err) {
         res.send(500);
