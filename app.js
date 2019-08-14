@@ -19,8 +19,8 @@ var employeeProfileRouter = require('./routes/employee-profile');
 var companyProjectandRoleRouter = require('./routes/company-projects-and-role');
 var approvalsRouter = require ('./routes/approvals-items');
 var logsbydayRouter = require ('./routes/logs-by-day');
-var logsbyweekRouter = require ('./routes/logs-by-week')
-
+var logsbyweekRouter = require ('./routes/logs-by-week');
+var usersRouter = require('./routes/users');
 
 var app = express();
 
@@ -44,6 +44,7 @@ app.use('/project-items', projectItemsRouter);
 app.use('/employee-profile', employeeProfileRouter);
 app.use('/company-projects', companyProjectandRoleRouter);
 app.use('/approvals-items', approvalsRouter);
+app.use('/users', usersRouter)
 
 app.use('/logsbyday', logsbydayRouter);
 app.use('/logsbyweek', logsbyweekRouter);
