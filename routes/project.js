@@ -63,11 +63,20 @@ router.delete('/', function (req, res, next) {
   })
 });
 
-/* POST users listing. */
 router.post('/', function (req, res, next) {
-  res.json({
-    message: 'post method'
-  })
+  fs.readFile('db-project.json', 'utf8', function readFileCallback(err, data){
+    if (err){
+      res.send(500);
+    } else {
+      obj = JSON.parse(data);
+      req.body.id = obj.length;
+      obj.push(req.body);
+      json = JSON.stringify(obj);
+      fs.writeFile('db-project.json', json, 'utf8', function (err, data){
+        if (err) {
+          res.send(500);
+        }
+      });
+    }});
 });
-
 module.exports = router;

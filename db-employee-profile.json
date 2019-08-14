@@ -292,18 +292,18 @@
                 40,
                 20,
                 0,
-                23,
+                0,
+                0,
                 4,
-                4,
-                4,
+                0,
                 0
               ]
             },
             "timesheetWorkload": {
               "name": "Skype",
               "color": "blue",
-              "planned": 120,
-              "actual": 95
+              "planned": 70,
+              "actual": 64
             }
           },
           {
@@ -315,17 +315,17 @@
                 10,
                 0,
                 11,
-                34,
+                0,
                 4,
-                12,
+                0,
                 0
               ]
             },
             "timesheetWorkload": {
               "name": "Office",
               "color": "red",
-              "planned": 140,
-              "actual": 111
+              "planned": 80,
+              "actual": 65
             }
           },
           {
@@ -333,11 +333,11 @@
               "color": "purple",
               "comment": "какой-то комментарий",
               "time": [
+                40,
+                10,
                 20,
-                0,
-                8,
-                15,
                 11,
+                0,
                 4,
                 9,
                 0
@@ -346,8 +346,80 @@
             "timesheetWorkload": {
               "name": "Uber",
               "color": "purple",
-              "planned": 90,
-              "actual": 67
+              "planned": 120,
+              "actual": 94
+            }
+          }
+
+        ]
+      },
+      {
+        "period": "24 - 31 Apr",
+        "dataForApproval": [
+          {
+            "logs": {
+              "color": "blue",
+              "comment": "какой-то комментарий",
+              "time": [
+                40,
+                20,
+                0,
+                0,
+                0,
+                4,
+                0,
+                0
+              ]
+            },
+            "timesheetWorkload": {
+              "name": "Skype",
+              "color": "blue",
+              "planned": 70,
+              "actual": 64
+            }
+          },
+          {
+            "logs": {
+              "color": "red",
+              "comment": "какой-то комментарий",
+              "time": [
+                40,
+                10,
+                0,
+                11,
+                0,
+                4,
+                0,
+                0
+              ]
+            },
+            "timesheetWorkload": {
+              "name": "Office",
+              "color": "red",
+              "planned": 80,
+              "actual": 65
+            }
+          },
+          {
+            "logs": {
+              "color": "purple",
+              "comment": "какой-то комментарий",
+              "time": [
+                40,
+                10,
+                20,
+                11,
+                0,
+                4,
+                9,
+                0
+              ]
+            },
+            "timesheetWorkload": {
+              "name": "Uber",
+              "color": "purple",
+              "planned": 120,
+              "actual": 94
             }
           }
 
