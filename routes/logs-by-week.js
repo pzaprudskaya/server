@@ -25,7 +25,7 @@ router.get('/:name', function(req, res, next) {
 
 
 /* PUT (update) users listing. */
-router.put('/', function (req, res, next) {
+router.put('/:name', function (req, res, next) {
   const body = req.body;
   let obj = null;
 
@@ -65,7 +65,7 @@ router.delete('/:name', function (req, res, next) {
 });
 
 /* POST users listing. */
-router.post('/:name/data/:day', function (req, res, next) {
+router.post('/:name', function (req, res, next) {
   fs.readFile('db-logs-by-week.json', 'utf8', function readFileCallback(err, data){
     if (err){
       res.send(500);
