@@ -1,23 +1,8 @@
 [
   {
-    "id": "332",
-    "name": "Nastia",
-    "email": "nastia@mail.ru",
-    "password": "ref",
-    "image": "https://sun9-34.userapi.com/c824201/v824201969/173426/YW0DIgHPsvw.jpg?ava=1"
-  },
-  {
-    "id": "666",
-    "name": "Рил Мэйер",
-    "email": "rilm@gmail.com",
-    "password": "proxy",
-    "image": "https://cs11.pikabu.ru/post_img/big/2019/07/19/7/1563534074173916847.png"
-  },
-  {
-    "id": "33666",
-    "name": "Moisei",
-    "email": "Mois@mail.ru",
-    "password": "refgg",
-    "image": "http://www.pravoslavie.ru/sas/image/102659/265940.p.jpg"
+    "id":0,
+    "name":"Polina Zaprudskaya",
+    "email":"polinazaprudskaya@gmail.com",
+    "password":"1234"
   }
 ]

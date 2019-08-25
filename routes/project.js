@@ -25,7 +25,7 @@ router.get('/:name', function(req, res, next) {
 
 
 /* PUT (update) users listing. */
-router.put('/', function (req, res, next) {
+router.put('/:name', function (req, res, next) {
   const body = req.body;
   let obj = null;
 
@@ -38,6 +38,9 @@ router.put('/', function (req, res, next) {
         obj = obj.map(item => {
           if (item.id === body.id) {
             return body;
+          }
+          else {
+            return item;
           }
         });
 

@@ -1,1 +1,248 @@
-[{"id":0,"name":"Name","activities":{"vacation":false,"sickLeave":false,"business":false},"defaultProject":[],"startWeek":"Sunday","defaultWorkload":{"hours":0,"period":"week"},"approval":"1 week","notify":[[false,10,"error"],[false,15,"warn"]],"abilityToForget":false,"submitTimeLogs":false,"comments":true,"validation":"w+","connectedIntegration":[],"integrations":[{"id":0,"name":"AtlassianJira","background":"url(./assets/image/AtlassianJira.svg)"},{"id":1,"name":"Slack","background":"url(./assets/image/Slack.svg)"},{"id":2,"name":"GitHub","background":"url(./assets/image/GitHub.svg)"},{"id":3,"name":"Trello","background":"url(./assets/image/Trello.svg)"},{"id":4,"name":"Asana","background":"url(./assets/image/Asana.svg)"},{"id":5,"name":"IDE","background":"url(./assets/image/IDE.svg)"},{"id":6,"name":"Git","background":"url(./assets/image/Git.svg)"},{"id":7,"name":"Telegram","background":"url(./assets/image/Telegram.svg)"},{"id":8,"name":"Whatsapp","background":"url(./assets/image/Whatsapp.svg)"}]},{"id":1,"name":"Mifort","activities":{"vacation":true,"sickLeave":false,"business":true},"defaultProject":["Uber"],"startWeek":"Monday","defaultWorkload":{"hours":40.5,"period":"week"},"approval":"1 week","notify":[[true,10,"error"],[false,15,"warn"]],"abilityToForget":false,"submitTimeLogs":false,"comments":true,"validation":"w+","connectedIntegration":[{"id":0,"name":"AtlassianJira","background":"url(./assets/image/AtlassianJira.svg)"},{"id":2,"name":"GitHub","background":"url(./assets/image/GitHub.svg)"},{"id":3,"name":"Trello","background":"url(./assets/image/Trello.svg)"},{"id":6,"name":"Git","background":"url(./assets/image/Git.svg)"}],"integrations":[{"id":1,"name":"Slack","background":"url(./assets/image/Slack.svg)"},{"id":4,"name":"Asana","background":"url(./assets/image/Asana.svg)"},{"id":5,"name":"IDE","background":"url(./assets/image/IDE.svg)"},{"id":7,"name":"Telegram","background":"url(./assets/image/Telegram.svg)"},{"id":8,"name":"Whatsapp","background":"url(./assets/image/Whatsapp.svg)"}]},{"id":2,"name":"Microsoft","activities":{"vacation":true,"sickLeave":true,"business":false},"defaultProject":["Skype","Office"],"startWeek":"Sunday","defaultWorkload":{"hours":20,"period":"month"},"approval":"month","notify":[[false,15,"error"],[true,20,"warn"]],"abilityToForget":false,"submitTimeLogs":false,"comments":true,"validation":"w+","connectedIntegration":[],"integrations":[{"id":0,"name":"AtlassianJira","background":"url(./assets/image/AtlassianJira.svg)"},{"id":1,"name":"Slack","background":"url(./assets/image/Slack.svg)"},{"id":2,"name":"GitHub","background":"url(./assets/image/GitHub.svg)"},{"id":3,"name":"Trello","background":"url(./assets/image/Trello.svg)"},{"id":4,"name":"Asana","background":"url(./assets/image/Asana.svg)"},{"id":5,"name":"IDE","background":"url(./assets/image/IDE.svg)"},{"id":6,"name":"Git","background":"url(./assets/image/Git.svg)"},{"id":7,"name":"Telegram","background":"url(./assets/image/Telegram.svg)"},{"id":8,"name":"Whatsapp","background":"url(./assets/image/Whatsapp.svg)"}]}]
+[
+  {
+    "id": 0,
+    "name": "Name",
+    "activities": {
+      "vacation": false,
+      "sickLeave": false,
+      "business": false
+    },
+    "defaultProject": [],
+    "startWeek": "Sunday",
+    "defaultWorkload": {
+      "hours": 0,
+      "period": "week"
+    },
+    "approval": "1 week",
+    "notify": [
+      [
+        false,
+        10,
+        "error"
+      ],
+      [
+        false,
+        15,
+        "warn"
+      ]
+    ],
+    "abilityToForget": false,
+    "submitTimeLogs": false,
+    "comments": true,
+    "validation": "w+",
+    "connectedIntegration": [],
+    "integrations": [
+      {
+        "id": 0,
+        "name": "AtlassianJira",
+        "background": "url(./assets/image/AtlassianJira.svg)"
+      },
+      {
+        "id": 1,
+        "name": "Slack",
+        "background": "url(./assets/image/Slack.svg)"
+      },
+      {
+        "id": 2,
+        "name": "GitHub",
+        "background": "url(./assets/image/GitHub.svg)"
+      },
+      {
+        "id": 3,
+        "name": "Trello",
+        "background": "url(./assets/image/Trello.svg)"
+      },
+      {
+        "id": 4,
+        "name": "Asana",
+        "background": "url(./assets/image/Asana.svg)"
+      },
+      {
+        "id": 5,
+        "name": "IDE",
+        "background": "url(./assets/image/IDE.svg)"
+      },
+      {
+        "id": 6,
+        "name": "Git",
+        "background": "url(./assets/image/Git.svg)"
+      },
+      {
+        "id": 7,
+        "name": "Telegram",
+        "background": "url(./assets/image/Telegram.svg)"
+      },
+      {
+        "id": 8,
+        "name": "Whatsapp",
+        "background": "url(./assets/image/Whatsapp.svg)"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Mifort",
+    "activities": {
+      "vacation": true,
+      "sickLeave": false,
+      "business": true
+    },
+    "defaultProject": [
+      "Uber"
+    ],
+    "startWeek": "Monday",
+    "defaultWorkload": {
+      "hours": 40.5,
+      "period": "week"
+    },
+    "approval": "1 week",
+    "notify": [
+      [
+        true,
+        10,
+        "error"
+      ],
+      [
+        false,
+        15,
+        "warn"
+      ]
+    ],
+    "abilityToForget": false,
+    "submitTimeLogs": false,
+    "comments": true,
+    "validation": "w+",
+    "connectedIntegration": [
+      {
+        "id": 0,
+        "name": "AtlassianJira",
+        "background": "url(./assets/image/AtlassianJira.svg)"
+      },
+      {
+        "id": 2,
+        "name": "GitHub",
+        "background": "url(./assets/image/GitHub.svg)"
+      },
+      {
+        "id": 3,
+        "name": "Trello",
+        "background": "url(./assets/image/Trello.svg)"
+      },
+      {
+        "id": 6,
+        "name": "Git",
+        "background": "url(./assets/image/Git.svg)"
+      }
+    ],
+    "integrations": [
+      {
+        "id": 1,
+        "name": "Slack",
+        "background": "url(./assets/image/Slack.svg)"
+      },
+      {
+        "id": 4,
+        "name": "Asana",
+        "background": "url(./assets/image/Asana.svg)"
+      },
+      {
+        "id": 5,
+        "name": "IDE",
+        "background": "url(./assets/image/IDE.svg)"
+      },
+      {
+        "id": 7,
+        "name": "Telegram",
+        "background": "url(./assets/image/Telegram.svg)"
+      },
+      {
+        "id": 8,
+        "name": "Whatsapp",
+        "background": "url(./assets/image/Whatsapp.svg)"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Microsoft",
+    "activities": {
+      "vacation": true,
+      "sickLeave": true,
+      "business": false
+    },
+    "defaultProject": [
+      "Skype",
+      "Office"
+    ],
+    "startWeek": "Sunday",
+    "defaultWorkload": {
+      "hours": 20,
+      "period": "month"
+    },
+    "approval": "month",
+    "notify": [
+      [
+        false,
+        15,
+        "error"
+      ],
+      [
+        true,
+        20,
+        "warn"
+      ]
+    ],
+    "abilityToForget": false,
+    "submitTimeLogs": false,
+    "comments": true,
+    "validation": "w+",
+    "connectedIntegration": [],
+    "integrations": [
+      {
+        "id": 0,
+        "name": "AtlassianJira",
+        "background": "url(./assets/image/AtlassianJira.svg)"
+      },
+      {
+        "id": 1,
+        "name": "Slack",
+        "background": "url(./assets/image/Slack.svg)"
+      },
+      {
+        "id": 2,
+        "name": "GitHub",
+        "background": "url(./assets/image/GitHub.svg)"
+      },
+      {
+        "id": 3,
+        "name": "Trello",
+        "background": "url(./assets/image/Trello.svg)"
+      },
+      {
+        "id": 4,
+        "name": "Asana",
+        "background": "url(./assets/image/Asana.svg)"
+      },
+      {
+        "id": 5,
+        "name": "IDE",
+        "background": "url(./assets/image/IDE.svg)"
+      },
+      {
+        "id": 6,
+        "name": "Git",
+        "background": "url(./assets/image/Git.svg)"
+      },
+      {
+        "id": 7,
+        "name": "Telegram",
+        "background": "url(./assets/image/Telegram.svg)"
+      },
+      {
+        "id": 8,
+        "name": "Whatsapp",
+        "background": "url(./assets/image/Whatsapp.svg)"
+      }
+    ]
+  }
+]

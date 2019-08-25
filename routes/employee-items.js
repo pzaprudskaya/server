@@ -41,19 +41,19 @@ router.get('/', function(req, res, next) {
 
 
 /* PUT (update) users listing. */
-router.put('/:name', function (req, res, next) {
+router.put('/:id', function (req, res, next) {
 
   const body = req.body;
   let obj = null;
 
-  if (body && body.name) {
+  if (body && body.id) {
     fs.readFile('db-employee-items.json', 'utf8', function (err, data) {
       if (err) {
         res.send(500);
       } else {
         obj = JSON.parse(data);
         obj = obj.map(item => {
-          if (item.name === body.name) {
+          if (item.id === body.id) {
             return body;
           } else {
             return item;
@@ -85,9 +85,20 @@ router.delete('/', function (req, res, next) {
 
 /* POST users listing. */
 router.post('/', function (req, res, next) {
-  res.json({
-    message: 'post method'
-  })
+  fs.readFile('db-employee-items.json', 'utf8', function readFileCallback(err, data){
+    if (err){
+      res.send(500);
+    } else {
+      obj = JSON.parse(data);
+      req.body.id = obj.length;
+      obj.push(req.body);
+      json = JSON.stringify(obj);
+      fs.writeFile('db-employee-items.json', json, 'utf8', function (err, data){
+        if (err) {
+          res.send(500);
+        }
+      });
+    }});
 });
 
 module.exports = router;

@@ -1,1 +1,244 @@
-[{"name":"Polina Zaprudskaya","data":[{"day":"11/08/2019","logs":[{"id":1,"color":"blue","projectName":"Skype","comment":"комментарий....","time":10},{"id":2,"color":"purple","projectName":"Uber","comment":"комментарий....","time":50},{"id":3,"color":"red","projectName":"Office","comment":"комментарий....","time":20}]},{"day":"12/08/2019","logs":[{"id":1,"color":"blue","projectName":"Skype","comment":"комментарий....","time":0},{"id":2,"color":"purple","projectName":"Uber","comment":"комментарий....","time":25},{"id":3,"color":"red","projectName":"Office","comment":"комментарий....","time":30}]},{"day":"13/08/2019","logs":[{"id":1,"color":"blue","projectName":"Skype","comment":"комментарий....","time":24},{"id":2,"color":"purple","projectName":"Uber","comment":"комментарий....","time":23.5},{"id":3,"color":"red","projectName":"Office","comment":"комментарий....","time":10}]},{"day":"14/08/2019","logs":[{"id":1,"color":"blue","projectName":"Skype","comment":"комментарий....","time":30},{"id":2,"color":"purple","projectName":"Uber","comment":"комментарий....","time":50},{"id":3,"color":"red","projectName":"Office","comment":"комментарий....","time":20}]},{"day":"15/08/2019","logs":[{"id":1,"color":"blue","projectName":"Skype","comment":"комментарий....","time":21},{"id":2,"color":"purple","projectName":"Uber","comment":"комментарий....","time":18},{"id":3,"color":"red","projectName":"Office","comment":"комментарий....","time":30}]}]},{"name":"Egor Drozd","data":[{"day":"11/08/2019","logs":[{"id":1,"color":"blue","projectName":"Skype","comment":"комментарий....","time":10},{"id":2,"color":"purple","projectName":"Uber","comment":"комментарий....","time":50},{"id":3,"color":"red","projectName":"Office","comment":"комментарий....","time":20}]},{"day":"12/08/2019","logs":[{"id":1,"color":"blue","projectName":"Skype","comment":"комментарий....","time":0},{"id":2,"color":"purple","projectName":"Uber","comment":"комментарий....","time":25},{"id":3,"color":"red","projectName":"Office","comment":"комментарий....","time":30}]},{"day":"13/08/2019","logs":[{"id":1,"color":"blue","projectName":"Skype","comment":"комментарий....","time":24},{"id":2,"color":"purple","projectName":"Uber","comment":"комментарий....","time":23.5},{"id":3,"color":"red","projectName":"Office","comment":"комментарий....","time":10}]},{"day":"14/08/2019","logs":[{"id":1,"color":"blue","projectName":"Skype","comment":"комментарий....","time":10},{"id":2,"color":"purple","projectName":"Uber","comment":"комментарий....","time":50},{"id":3,"color":"red","projectName":"Office","comment":"комментарий....","time":20}]},{"day":"15/08/2019","logs":[{"id":1,"color":"blue","projectName":"Skype","comment":"комментарий....","time":21},{"id":2,"color":"purple","projectName":"Uber","comment":"комментарий....","time":10.5},{"id":3,"color":"red","projectName":"Office","comment":"комментарий....","time":30}]}]}]
+[
+  {
+    "name": "Polina Zaprudskaya",
+    "data": [
+      {
+        "day": "11/08/2019",
+        "logs": [
+          {
+            "id": 1,
+            "color": "blue",
+            "projectName": "Skype",
+            "comment": "комментарий....",
+            "time": 10
+          },
+          {
+            "id": 2,
+            "color": "purple",
+            "projectName": "Uber",
+            "comment": "комментарий....",
+            "time": 50
+          },
+          {
+            "id": 3,
+            "color": "red",
+            "projectName": "Office",
+            "comment": "комментарий....",
+            "time": 20
+          }
+        ]
+      },
+      {
+        "day": "12/08/2019",
+        "logs": [
+          {
+            "id": 1,
+            "color": "blue",
+            "projectName": "Skype",
+            "comment": "комментарий....",
+            "time": 0
+          },
+          {
+            "id": 2,
+            "color": "purple",
+            "projectName": "Uber",
+            "comment": "комментарий....",
+            "time": 25
+          },
+          {
+            "id": 3,
+            "color": "red",
+            "projectName": "Office",
+            "comment": "комментарий....",
+            "time": 30
+          }
+        ]
+      },
+      {
+        "day": "13/08/2019",
+        "logs": [
+          {
+            "id": 1,
+            "color": "blue",
+            "projectName": "Skype",
+            "comment": "комментарий....",
+            "time": 24
+          },
+          {
+            "id": 2,
+            "color": "purple",
+            "projectName": "Uber",
+            "comment": "комментарий....",
+            "time": 23.5
+          },
+          {
+            "id": 3,
+            "color": "red",
+            "projectName": "Office",
+            "comment": "комментарий....",
+            "time": 10
+          }
+        ]
+      },
+      {
+        "day": "14/08/2019",
+        "logs": [
+          {
+            "id": 1,
+            "color": "blue",
+            "projectName": "Skype",
+            "comment": "комментарий....",
+            "time": 30
+          },
+          {
+            "id": 2,
+            "color": "purple",
+            "projectName": "Uber",
+            "comment": "комментарий....",
+            "time": 50
+          },
+          {
+            "id": 3,
+            "color": "red",
+            "projectName": "Office",
+            "comment": "комментарий....",
+            "time": 20
+          }
+        ]
+      },
+      {
+        "day": "15/08/2019",
+        "logs": [
+          {
+            "id": 1,
+            "color": "blue",
+            "projectName": "Skype",
+            "comment": "комментарий....",
+            "time": 21
+          },
+          {
+            "id": 2,
+            "color": "purple",
+            "projectName": "Uber",
+            "comment": "комментарий....",
+            "time": 18
+          },
+          {
+            "id": 3,
+            "color": "red",
+            "projectName": "Office",
+            "comment": "комментарий....",
+            "time": 30
+          }
+        ]
+      },
+      {
+        "day": "16/08/2019",
+        "logs": [
+          {
+            "id": 1,
+            "color": "gray",
+            "projectName": "Skype",
+            "time": 4456,
+            "comment": " ыявапр"
+          }
+        ]
+      },
+      {
+        "day": "17/08/2019",
+        "logs": [
+          {
+            "id": 1,
+            "color": "gray",
+            "projectName": "Skype",
+            "time": 45,
+            "comment": " ыявапр"
+          },
+          {
+            "id": 2,
+            "color": "purple",
+            "projectName": "Uber",
+            "comment": "комментарий....",
+            "time": 18
+          },
+          {
+            "id": 3,
+            "color": "red",
+            "projectName": "Office",
+            "comment": "комментарий....",
+            "time": 30
+          }
+        ]
+      },
+      {
+        "day": "18/08/2019",
+        "logs": [
+          {
+            "id": 1,
+            "color": "gray",
+            "projectName": "Skype",
+            "time": 20,
+            "comment": " ыявапр"
+          },
+          {
+            "id": 2,
+            "color": "red",
+            "projectName": "Office",
+            "comment": "комментарий....",
+            "time": 30
+          }
+        ]
+      },
+      {
+        "day": "19/08/2019",
+        "logs": [
+          {
+            "id": 1,
+            "color": "red",
+            "projectName": "Office",
+            "comment": "комментарий....",
+            "time": 12
+          }
+        ]
+      },
+      {
+        "day": "20/08/2019",
+        "logs": [
+          {
+            "id": 1,
+            "color": "gray",
+            "projectName": "Skype",
+            "time": 123,
+            "comment": " ыявапр"
+          },
+          {
+            "id": 2,
+            "color": "red",
+            "projectName": "Office",
+            "comment": "комментарий....",
+            "time": 345
+          }
+        ]
+      },
+      {
+        "day": "21/08/2019",
+        "logs": [
+          {
+            "id": 1,
+            "color": "gray",
+            "projectName": "Skype",
+            "time": 105,
+            "comment": " комментарий....."
+          },
+          {
+            "id": 2,
+            "color": "purple",
+            "projectName": "Uber",
+            "comment": "комментарий....",
+            "time": 52
+          }
+        ]
+      }
+    ]
+  }
+]

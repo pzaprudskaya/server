@@ -5,12 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var activityRouter = require('./routes/activity');
-var logsRouter = require('./routes/logs');
-var timesheetRouter = require('./routes/timesheet');
-var employeeRouter = require('./routes/employee');
 var projectRouter = require('./routes/project');
-var assignmentRouter = require('./routes/assignment');
-var integrationRouter = require('./routes/integration');
 var settingsRouter = require('./routes/settings');
 var notificationRouter = require('./routes/notification');
 var employeeItemsRouter = require('./routes/employee-items');
@@ -21,6 +16,7 @@ var approvalsRouter = require ('./routes/approvals-items');
 var logsbydayRouter = require ('./routes/logs-by-day');
 var logsbyweekRouter = require ('./routes/logs-by-week');
 var usersRouter = require('./routes/user');
+var mailRouter = require('./routes/sendmail');
 
 var app = express();
 
@@ -31,12 +27,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/activity', activityRouter);
-app.use('/logs', logsRouter);
-app.use('/timesheet', timesheetRouter);
-app.use('/employee', employeeRouter);
 app.use('/project', projectRouter);
-app.use('/assignment', assignmentRouter);
-app.use('/integration', integrationRouter);
 app.use('/settings', settingsRouter);
 app.use('/notification', notificationRouter);
 app.use('/employee-items', employeeItemsRouter);
@@ -45,7 +36,7 @@ app.use('/employee-profile', employeeProfileRouter);
 app.use('/company-projects', companyProjectandRoleRouter);
 app.use('/approvals-items', approvalsRouter);
 app.use('/users', usersRouter);
-
+app.use('/sendmail', mailRouter);
 app.use('/logsbyday', logsbydayRouter);
 app.use('/logsbyweek', logsbyweekRouter);
 

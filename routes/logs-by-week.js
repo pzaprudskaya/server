@@ -43,7 +43,7 @@ router.put('/:name', function (req, res, next) {
             return item;
           }
         });
-
+        console.log(obj);
         fs.writeFile('db-logs-by-week.json', JSON.stringify(obj), 'utf8', function (err, data) {
           if (err) {
             res.send(500);
@@ -73,6 +73,7 @@ router.post('/:name', function (req, res, next) {
       obj = JSON.parse(data);
       obj.push(req.body);
       json = JSON.stringify(obj);
+      console.log(obj);
       fs.writeFile('db-logs-by-week.json', json, 'utf8', function (err, data){
         if (err) {
           res.send(500);

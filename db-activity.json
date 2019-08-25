@@ -1,12 +1,8 @@
 [
   {
-    "name": "Polina Zaprudskaya",
-    "role": "Admin",
-    "companies": ["Mifort", "Microsoft"]
-  },
-  {
-    "name": "Polina Zaprudskaya (young)",
-    "role": "Owner",
-    "companies": ["Epam"]
+    "id":0,
+    "name":"Polina Zaprudskaya",
+    "role":"Admin",
+    "companies":["Mifort","Microsoft"]
   }
 ]

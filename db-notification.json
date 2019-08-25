@@ -1,15 +1,11 @@
 [
   {
-    "name": "1",
-    "projectName": "Windows",
-    "description": "hddxfcghjbz",
-    "endDate": "26"
-
-  },
-  {
-    "name": "2",
-    "projectName": "Skype",
-    "description": "hddxfcghjbz",
-    "endDate": "27"
+    "name": "Polina Zaprudskaya",
+    "notificationsType": {
+      "system" : true,
+      "push" : false,
+      "email" : false
+    },
+    "notifications" : ["welcome","restore"]
   }
 ]
