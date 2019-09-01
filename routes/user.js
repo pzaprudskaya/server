@@ -189,6 +189,43 @@ router.post('/', verifyToken, function (req, res, next) {
                     });
                 }
             });
+            fs.readFile('db-logs-by-day.json', 'utf8', function readFileCallback(err, data) {
+                if (err) {
+                    res.send(500);
+                } else {
+                    obj = JSON.parse(data);
+                    obj.push({name: req.body.name, data: []});
+                    json = JSON.stringify(obj);
+                    console.log(obj);
+                    fs.writeFile('db-logs-by-day.json', json, 'utf8', function (err, data) {
+                        if (err) {
+                            res.send(500);
+                        }
+                    });
+                }
+            });
+            fs.readFile('db-notification.json', 'utf8', function readFileCallback(err, data) {
+                if (err) {
+                    res.send(500);
+                } else {
+                    obj = JSON.parse(data);
+                    obj.push({
+                        name: req.body.name, notificationsType: {
+                            system : true,
+                            push : false,
+                            email : false
+                        },
+                        notifications : ["welcome"]
+                    });
+                    json = JSON.stringify(obj);
+                    console.log(obj);
+                    fs.writeFile('db-notification.json', json, 'utf8', function (err, data) {
+                        if (err) {
+                            res.send(500);
+                        }
+                    });
+                }
+            });
         }
     });
 
@@ -280,7 +317,43 @@ router.post('/add', function (req, res, next) {
             });
         }
     });
-
+    fs.readFile('db-logs-by-day.json', 'utf8', function readFileCallback(err, data) {
+        if (err) {
+            res.send(500);
+        } else {
+            obj = JSON.parse(data);
+            obj.push({name: req.body.name, data: []});
+            json = JSON.stringify(obj);
+            console.log(obj);
+            fs.writeFile('db-logs-by-day.json', json, 'utf8', function (err, data) {
+                if (err) {
+                    res.send(500);
+                }
+            });
+        }
+    });
+    fs.readFile('db-notification.json', 'utf8', function readFileCallback(err, data) {
+        if (err) {
+            res.send(500);
+        } else {
+            obj = JSON.parse(data);
+            obj.push({
+                name: req.body.name, notificationsType: {
+                    system : true,
+                    push : false,
+                    email : false
+                },
+                notifications : ["welcome"]
+            });
+            json = JSON.stringify(obj);
+            console.log(obj);
+            fs.writeFile('db-notification.json', json, 'utf8', function (err, data) {
+                if (err) {
+                    res.send(500);
+                }
+            });
+        }
+    });
 });
 
 router.post('/login', (req, res) => {
