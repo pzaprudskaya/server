@@ -64,7 +64,7 @@ router.delete('/:name', function (req, res, next) {
 });
 
 /* POST users listing. */
-router.post('/:name/data/:day', function (req, res, next) {
+router.post('/', function (req, res, next) {
   fs.readFile('db-logs-by-day.json', 'utf8', function readFileCallback(err, data){
     if (err){
       res.send(500);

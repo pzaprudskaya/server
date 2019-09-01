@@ -39,10 +39,29 @@ router.get('/', function(req, res, next) {
   );
 });
 
+router.get('/:name', function(req, res, next) {
+
+  fs.readFile('db-employee-items.json', 'utf8', function (err, data) {
+    if (err) {
+      res.send(500);
+    }
+    if (req.params.name) {
+      let arr = [];
+      (JSON.parse(data)).forEach(item => {
+        if (item.name === req.params.name) {
+          arr.push(item);
+        }
+      });
+      res.json(arr);
+    } else {
+      res.json(JSON.parse(data));
+    }
+  });
+});
+
 
 /* PUT (update) users listing. */
 router.put('/:id', function (req, res, next) {
-
   const body = req.body;
   let obj = null;
 
@@ -52,6 +71,7 @@ router.put('/:id', function (req, res, next) {
         res.send(500);
       } else {
         obj = JSON.parse(data);
+
         obj = obj.map(item => {
           if (item.id === body.id) {
             return body;

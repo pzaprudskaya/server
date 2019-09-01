@@ -12,47 +12,11 @@
   {
     "color": "purple",
     "name": "Uber",
-    "team": [
-      {
-        "id": 1,
-        "photo": "https://pp.userapi.com/c849032/v849032975/1b5995/yD94I7fPbLQ.jpg",
-        "name": "Polina Zaprudskaya",
-        "role": "Project Manager",
-        "workload": 45
-      },
-      {
-        "id": 2,
-        "photo": "https://sun9-36.userapi.com/c850616/v850616650/190edd/-5m_QHZ0b0I.jpg",
-        "name": "Egor Drozd",
-        "role": "Owner",
-        "workload": 30
-      }
-    ],
+    "team": [],
     "startDate": "23, Jan 2018",
     "endDate": "23, Jan 2020",
     "planned": 1770,
     "actual": 1583.25,
-    "status": "in progress"
-  },
-  {
-    "color": "red",
-    "name": "Office",
-    "team": [
-      {
-        "photo": "https://sun2.beltelecom-by-minsk.userapi.com/c856128/v856128920/6cd6f/OOkHkJrg6zQ.jpg",
-        "name": "Polina Zaprudskaya",
-        "workload": 40
-      },
-      {
-        "photo": "https://pp.userapi.com/c855332/v855332542/5222a/hXNILL9c7to.jpg",
-        "name": "Polina Zaprudskaya (young)",
-        "workload": 40
-      }
-    ],
-    "startDate": "11 Aug, 2018",
-    "endDate": "21 Mar, 2019",
-    "planned": 40,
-    "actual": 10,
     "status": "in progress"
   }
 ]

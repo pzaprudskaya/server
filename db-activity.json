@@ -1,8 +1,19 @@
 [
   {
-    "id":0,
-    "name":"Polina Zaprudskaya",
-    "role":"Admin",
-    "companies":["Mifort","Microsoft"]
+    "id": 0,
+    "name": "Polina Zaprudskaya",
+    "role": "Admin",
+    "companies": [
+      "Mifort",
+      "Microsoft"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Vika Bulgak",
+    "role": "Project Manager",
+    "companies": [
+      "Mifort"
+    ]
   }
 ]

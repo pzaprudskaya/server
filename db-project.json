@@ -78,22 +78,7 @@
       "currentlySpent": 1583.25,
       "expected": 1770
     },
-    "team": [
-      {
-        "id": 1,
-        "photo": "https://pp.userapi.com/c849032/v849032975/1b5995/yD94I7fPbLQ.jpg",
-        "name": "Polina Zaprudskaya",
-        "role": "Project Manager",
-        "workload": 45
-      },
-      {
-        "id": 2,
-        "photo": "https://sun9-36.userapi.com/c850616/v850616650/190edd/-5m_QHZ0b0I.jpg",
-        "name": "Egor Drozd",
-        "role": "Owner",
-        "workload": 30
-      }
-    ],
+    "team": [],
     "connectedIntegration": [],
     "integrations": [
       {
@@ -150,16 +135,6 @@
             "color": "gray",
             "name": "Polina Zaprudskaya",
             "workload": 20
-          },
-          {
-            "color": "purple",
-            "name": "Katya Ivanova",
-            "workload": 0
-          },
-          {
-            "color": "blue",
-            "name": "Vasili Smirnov",
-            "workload": 20
           }
         ]
       },
@@ -170,16 +145,6 @@
             "color": "gray",
             "name": "Polina Zaprudskaya",
             "workload": 20
-          },
-          {
-            "color": "purple",
-            "name": "Katya Ivanova",
-            "workload": 0
-          },
-          {
-            "color": "blue",
-            "name": "Vasili Smirnov",
-            "workload": 0
           }
         ]
       },
@@ -190,16 +155,6 @@
             "color": "gray",
             "name": "Polina Zaprudskaya",
             "workload": 10
-          },
-          {
-            "color": "purple",
-            "name": "Katya Ivanova",
-            "workload": 10
-          },
-          {
-            "color": "blue",
-            "name": "Vasili Smirnov",
-            "workload": 35
           }
         ]
       },
@@ -210,16 +165,6 @@
             "color": "gray",
             "name": "Polina Zaprudskaya",
             "workload": 14
-          },
-          {
-            "color": "purple",
-            "name": "Katya Ivanova",
-            "workload": 25
-          },
-          {
-            "color": "blue",
-            "name": "Vasili Smirnov",
-            "workload": 5
           }
         ]
       },
@@ -230,16 +175,6 @@
             "color": "gray",
             "name": "Polina Zaprudskaya",
             "workload": 20
-          },
-          {
-            "color": "purple",
-            "name": "Katya Ivanova",
-            "workload": 0
-          },
-          {
-            "color": "blue",
-            "name": "Vasili Smirnov",
-            "workload": 10
           }
         ]
       },
@@ -250,16 +185,6 @@
             "color": "gray",
             "name": "Polina Zaprudskaya",
             "workload": 14
-          },
-          {
-            "color": "purple",
-            "name": "Katya Ivanova",
-            "workload": 28
-          },
-          {
-            "color": "blue",
-            "name": "Vasili Smirnov",
-            "workload": 17
           }
         ]
       },
@@ -270,16 +195,6 @@
             "color": "gray",
             "name": "Polina Zaprudskaya",
             "workload": 0
-          },
-          {
-            "color": "purple",
-            "name": "Katya Ivanova",
-            "workload": 14
-          },
-          {
-            "color": "blue",
-            "name": "Vasili Smirnov",
-            "workload": 29
           }
         ]
       },
@@ -290,16 +205,6 @@
             "color": "gray",
             "name": "Polina Zaprudskaya",
             "workload": 27
-          },
-          {
-            "color": "purple",
-            "name": "Katya Ivanova",
-            "workload": 14
-          },
-          {
-            "color": "blue",
-            "name": "Vasili Smirnov",
-            "workload": 35
           }
         ]
       },
@@ -310,16 +215,6 @@
             "color": "gray",
             "name": "Polina Zaprudskaya",
             "workload": 0
-          },
-          {
-            "color": "purple",
-            "name": "Katya Ivanova",
-            "workload": 0
-          },
-          {
-            "color": "blue",
-            "name": "Vasili Smirnov",
-            "workload": 21
           }
         ]
       },
@@ -330,16 +225,6 @@
             "color": "gray",
             "name": "Polina Zaprudskaya",
             "workload": 20
-          },
-          {
-            "color": "purple",
-            "name": "Katya Ivanova",
-            "workload": 0
-          },
-          {
-            "color": "blue",
-            "name": "Vasili Smirnov",
-            "workload": 0
           }
         ]
       },
@@ -349,16 +234,6 @@
           {
             "color": "gray",
             "name": "Polina Zaprudskaya",
-            "workload": 0
-          },
-          {
-            "color": "purple",
-            "name": "Katya Ivanova",
-            "workload": 0
-          },
-          {
-            "color": "blue",
-            "name": "Vasili Smirnov",
             "workload": 0
           }
         ]
@@ -370,16 +245,6 @@
             "color": "gray",
             "name": "Polina Zaprudskaya",
             "workload": 46
-          },
-          {
-            "color": "purple",
-            "name": "Katya Ivanova",
-            "workload": 51
-          },
-          {
-            "color": "blue",
-            "name": "Vasili Smirnov",
-            "workload": 14
           }
         ]
       }
@@ -399,18 +264,7 @@
       "currentlySpent": 1000.25,
       "expected": 1200
     },
-    "team": [
-      {
-        "photo": "https://sun2.beltelecom-by-minsk.userapi.com/c856128/v856128920/6cd6f/OOkHkJrg6zQ.jpg",
-        "name": "Polina Zaprudskaya",
-        "workload": 20
-      },
-      {
-        "photo": "https://pp.userapi.com/c855332/v855332542/5222a/hXNILL9c7to.jpg",
-        "name": "Polina Zaprudskaya (young)",
-        "workload": 20
-      }
-    ],
+    "team": [],
     "connectedIntegration": [],
     "integrations": [
       {
@@ -467,16 +321,6 @@
             "color": "green",
             "name": "Polina Zaprudskaya",
             "workload": 20
-          },
-          {
-            "color": "blue",
-            "name": "Katya Ivanova",
-            "workload": 0
-          },
-          {
-            "color": "gray",
-            "name": "Vasili Smirnov",
-            "workload": 20
           }
         ]
       },
@@ -487,16 +331,6 @@
             "color": "green",
             "name": "Polina Zaprudskaya",
             "workload": 20
-          },
-          {
-            "color": "blue",
-            "name": "Katya Ivanova",
-            "workload": 0
-          },
-          {
-            "color": "gray",
-            "name": "Vasili Smirnov",
-            "workload": 0
           }
         ]
       },
@@ -507,16 +341,6 @@
             "color": "green",
             "name": "Polina Zaprudskaya",
             "workload": 10
-          },
-          {
-            "color": "blue",
-            "name": "Katya Ivanova",
-            "workload": 10
-          },
-          {
-            "color": "gray",
-            "name": "Vasili Smirnov",
-            "workload": 35
           }
         ]
       },
@@ -527,16 +351,6 @@
             "color": "green",
             "name": "Polina Zaprudskaya",
             "workload": 14
-          },
-          {
-            "color": "blue",
-            "name": "Katya Ivanova",
-            "workload": 25
-          },
-          {
-            "color": "gray",
-            "name": "Vasili Smirnov",
-            "workload": 5
           }
         ]
       },
@@ -547,16 +361,6 @@
             "color": "green",
             "name": "Polina Zaprudskaya",
             "workload": 20
-          },
-          {
-            "color": "blue",
-            "name": "Katya Ivanova",
-            "workload": 0
-          },
-          {
-            "color": "gray",
-            "name": "Vasili Smirnov",
-            "workload": 10
           }
         ]
       },
@@ -567,16 +371,6 @@
             "color": "green",
             "name": "Polina Zaprudskaya",
             "workload": 14
-          },
-          {
-            "color": "blue",
-            "name": "Katya Ivanova",
-            "workload": 28
-          },
-          {
-            "color": "gray",
-            "name": "Vasili Smirnov",
-            "workload": 17
           }
         ]
       },
@@ -587,16 +381,6 @@
             "color": "green",
             "name": "Polina Zaprudskaya",
             "workload": 0
-          },
-          {
-            "color": "blue",
-            "name": "Katya Ivanova",
-            "workload": 14
-          },
-          {
-            "color": "gray",
-            "name": "Vasili Smirnov",
-            "workload": 29
           }
         ]
       },
@@ -607,16 +391,6 @@
             "color": "green",
             "name": "Polina Zaprudskaya",
             "workload": 27
-          },
-          {
-            "color": "blue",
-            "name": "Katya Ivanova",
-            "workload": 14
-          },
-          {
-            "color": "gray",
-            "name": "Vasili Smirnov",
-            "workload": 35
           }
         ]
       },
@@ -627,16 +401,6 @@
             "color": "green",
             "name": "Polina Zaprudskaya",
             "workload": 0
-          },
-          {
-            "color": "blue",
-            "name": "Katya Ivanova",
-            "workload": 0
-          },
-          {
-            "color": "gray",
-            "name": "Vasili Smirnov",
-            "workload": 21
           }
         ]
       },
@@ -647,16 +411,6 @@
             "color": "green",
             "name": "Polina Zaprudskaya",
             "workload": 20
-          },
-          {
-            "color": "blue",
-            "name": "Katya Ivanova",
-            "workload": 0
-          },
-          {
-            "color": "gray",
-            "name": "Vasili Smirnov",
-            "workload": 0
           }
         ]
       },
@@ -666,16 +420,6 @@
           {
             "color": "green",
             "name": "Polina Zaprudskaya",
-            "workload": 0
-          },
-          {
-            "color": "blue",
-            "name": "Katya Ivanova",
-            "workload": 0
-          },
-          {
-            "color": "gray",
-            "name": "Vasili Smirnov",
             "workload": 0
           }
         ]
@@ -687,16 +431,6 @@
             "color": "green",
             "name": "Polina Zaprudskaya",
             "workload": 46
-          },
-          {
-            "color": "blue",
-            "name": "Katya Ivanova",
-            "workload": 51
-          },
-          {
-            "color": "gray",
-            "name": "Vasili Smirnov",
-            "workload": 14
           }
         ]
       }
