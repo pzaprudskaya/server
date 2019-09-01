@@ -148,7 +148,7 @@ router.post('/', verifyToken, function (req, res, next) {
                     res.send(500);
                 } else {
                     obj = JSON.parse(data);
-                    req.body.id = obj.length;
+                    req.body.id = obj.length + 1;
                     obj = obj.map(item => {
                         if (item.email === req.body.email) {
                             item.photoUrl = req.body.photoUrl;
@@ -292,7 +292,7 @@ router.post('/add', function (req, res, next) {
             res.send(500);
         } else {
             obj = JSON.parse(data);
-            obj.push({id: obj.length, photoUrl: req.body.photoUrl, name: req.body.name, role: 'default role', email: req.body.email,
+            obj.push({id: obj.length + 1, photoUrl: req.body.photoUrl, name: req.body.name, role: 'default role', email: req.body.email,
                 planned: 0, actual: 0, status: "active", pendingApprovalTimesheets: []});
             json = JSON.stringify(obj);
             fs.writeFile('db-employee-items.json', json, 'utf8', function (err, data) {

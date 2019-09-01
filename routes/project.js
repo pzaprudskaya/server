@@ -2,6 +2,38 @@ const express = require('express');
 var fs = require('fs');
 const router = express.Router();
 
+router.get('/', function(req, res, next) {
+
+  fs.readFile('db-project.json', 'utf8', function (err, data) {
+        if (err) {
+          res.send(500);
+        } else {
+          const _data = JSON.parse(data);
+
+          let keys = Object.keys(req.query);
+          let numOfKeys = keys.length;
+          let filteredData = [];
+          let isExist = true;
+
+          if (keys && numOfKeys) {
+            _data.forEach(item => {
+              keys.forEach(key => {
+                if (isExist && item.hasOwnProperty(key)
+                    && item[key].indexOf(req.query[key]) === -1) {
+                  isExist = false;
+                }
+              });
+              isExist ? filteredData.push(item) : isExist = true;
+            });
+            res.json(filteredData);
+          } else {
+            res.json(_data);
+          }
+        }
+
+      }
+  );
+});
 
 /* GET users listing. */
 router.get('/:name', function(req, res, next) {

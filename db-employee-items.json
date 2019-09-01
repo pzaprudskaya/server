@@ -1,6 +1,6 @@
 [
   {
-    "id": 0,
+    "id": 1,
     "photoUrl": "https://sun2.beltelecom-by-minsk.userapi.com/c856128/v856128920/6cd6f/OOkHkJrg6zQ.jpg",
     "name": "Polina Zaprudskaya",
     "role": "Owner",
@@ -9,15 +9,10 @@
     "actual": 496,
     "status": "active",
     "pendingApprovalTimesheets": [
-      {
-        "period": "18 - 24 Aug",
-        "actual": 66.5,
-        "planned": 40
-      }
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "photoUrl": "http://mystical-stories.com/uploads/posts/2017-11/1511946863_got10.jpg",
     "name": "Vika Bulgak",
     "role": "Project Manager",
